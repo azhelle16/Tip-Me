@@ -1,0 +1,25 @@
+{
+  "name": "Tip-Me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azhelle16/Tip-Me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azhelle16/Tip-Me/issues"
+  },
+  "homepage": "https://github.com/azhelle16/Tip-Me#readme",
+  "dependencies": {
+    "cli-table": "0.3.1",
+    "inquirer": "6.3.1",
+    "require": "2.4.20"
+  }
+}
