@@ -137,7 +137,7 @@ let promptUser = () => {
       	.then(function(res) {
         
         	//this prompt is if the tip is more than 0
-        	if (parseFloat(res.tip_percent) == 0) {
+        	if (parseFloat(res.tip_percent) == 0 || res.people_input == 1) {
         		res["will_split"] = ""
         		calculateTip(res)
         	} else {
@@ -204,7 +204,6 @@ let calculateTip = (r) => {
 	let rtip = parseFloat(r.price_input) * parseFloat(r.tip_percent/100)
 	let new_price
 	let tip_per_person
-
 
 	if (r.tip_percent > 0) {
 
