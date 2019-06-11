@@ -226,7 +226,7 @@ let calculateTip = (r) => {
 
 	} else {
 
-		console.log("\n")
+		console.log("\n") //tip per person is not shown since there is only one person in the table
 
 	 }
 
